@@ -36,34 +36,34 @@ $(document).ready(function() {
 
   $("#animal1Image").mouseover(function() {
     this.src = "images/puppy1-lightened.jpg"
-    $("#animal1Image").addClass("hoverBorder");
+    $("#animal1Image").removeClass("adopteeImg").addClass("hoverBorder");
   }).mouseout(function() {
     this.src = "images/puppy1.jpg"
-    $("#animal1Image").removeClass("hoverBorder");
+    $("#animal1Image").removeClass("hoverBorder").addClass("adopteeImg");
   });
 
   $("#animal2Image").mouseover(function() {
     this.src = "images/kitten1-lightened.jpg"
-    $("#animal2Image").addClass("hoverBorder");
+    $("#animal2Image").removeClass("adopteeImg").addClass("hoverBorder");
   }).mouseout(function() {
     this.src = "images/kitten1.jpg"
-    $("#animal2Image").removeClass("hoverBorder");
+    $("#animal2Image").removeClass("hoverBorder").addClass("adopteeImg");
   });
 
   $("#animal3Image").mouseover(function() {
     this.src = "images/puppy2-lightened.jpg"
-    $("#animal3Image").addClass("hoverBorder");
+    $("#animal3Image").removeClass("adopteeImg").addClass("hoverBorder");
   }).mouseout(function() {
     this.src = "images/puppy2.jpg"
-    $("#animal3Image").removeClass("hoverBorder");
+    $("#animal3Image").removeClass("hoverBorder").addClass("adopteeImg");
   });
 
   $("#animal4Image").mouseover(function() {
     this.src = "images/kitten2-lightened.jpg"
-    $("#animal4Image").addClass("hoverBorder");
+    $("#animal4Image").removeClass("adopteeImg").addClass("hoverBorder");
   }).mouseout(function() {
     this.src = "images/kitten2.jpg"
-    $("#animal4Image").removeClass("hoverBorder");
+    $("#animal4Image").removeClass("hoverBorder").addClass("adopteeImg");
   });
 
 })

@@ -1,12 +1,12 @@
 <!DOCTYPE>
   <head>
     <title>Page Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css" media="screen" title="no title" meta charset="UTF-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  </head>
+    </head>
   <body>
-    <div class="container"> <!--Opening div for class container -->
+    <div class="mainContainer"> <!--Opening div for class container -->
       <div class="topSection">
         <div class="backgroundImage">  <!-- Opening div for class backgroundImage -->
           <div class="mainMenu">  <!--Opening div for class mainMenu -->
@@ -37,7 +37,7 @@
               <p>Michevious, Playful and I are looking</p>
               <p>for that special someone</p>
               <p>to brighten their days</p>
-              <button type="button" name="button">ADOPT TODAY</button>
+              <button type="button" name="button" class="btn btn-primary">ADOPT TODAY</button>
             </div>  <!--Closing div for class adoptMeBlurb -->
         </div>  <!--Closing div for class backgroundImage -->
       </div>
@@ -76,10 +76,10 @@
           </p>
           <div class="featureButtons">
             <div class="adoptGeorge">
-              <button type="button" name="button">Adopt George</button>
+              <button type="button" name="button" class="btn btn-primary">Adopt George</button>
             </div>
             <div class="donate">
-              <button type="button" name="button">Donate</button>
+              <button type="button" name="button" class="btn btn-primary">Donate</button>
             </div>
           </div>
         </div>  <!--Closing div for featureAnimalText -->
@@ -102,16 +102,40 @@
       </div>  <!--Closing div for tiles1 -->
       <div class="tiles2">  <!--Opening div for tiles2 -->
         <div class="tilesSection3">  <!--Opening div for tilesSection3 -->
-
+          <h3>Foster Program</h3>
         </div>  <!--Closing div for tilesSection3 -->
         <div class="tilesSection4">  <!--Opening div for tilesSection4 -->
-
+          <h3>Upcoming Events</h3>
         </div>  <!-- Closing div for tilesSection4 -->
       </div>  <!--Closing div for tiles2 -->
 
-    </div>  <!--Closing div for class container-->
-    <script type="text/javascript" src="js/script.js">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 footerSections">
+            <i class="fa fa-paw footerIcons" aria-hidden="true"></i>
+            <h4>ADOPT A PET</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 footerSections">
+            <i class="fa fa-handshake-o footerIcons" aria-hidden="true"></i>
+            <h4>VOLUNTEER/FOSTER</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 footerSections">
+            <i class="fa fa-cc-visa footerIcons" aria-hidden="true"></i>
+            <h4>DONATE</h4>
+          </div>
+        </div>
+      </div>
 
-    </script>
+      <footer class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12">
+            <img src="images/kiddogonpier.png" alt="" class="footerImage">
+          </div>
+        </div>
+      </footer>
+
+    </div>  <!--Closing div for class container-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>

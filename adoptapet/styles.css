@@ -4,7 +4,7 @@
 }
 
 
-.container {
+.mainContainer {
   /*border: 1px solid black;*/
   margin: 0 auto;
   width: 100%;
@@ -35,6 +35,7 @@ li {
 a {
   text-decoration: none;
 }
+
 
 .fixed-nav {
   position: fixed;
@@ -195,14 +196,14 @@ a {
   margin-right: 3em;
 }
 
-.adoptGeorge button,
+/*.adoptGeorge button,
 .donate button {
   background: #ADD10E;
   border: 1px solid #666;
   color: #000;
   padding: 1em;
   border-radius: 50%;
-}
+}*/
 
 .tiles1,
 .tiles2 {
@@ -212,19 +213,20 @@ a {
 }
 
 .tilesSection1 {
-    background: url(images/helpcat-resized.jpg) no-repeat;
+    background: url(images/helpdog.jpg) no-repeat;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 300px;
     margin-bottom: 1em;
-    color: #999;
+    color: #000;
+    text-align: center;
 }
 
 .tilesSection1 h3 {
   position: relative;;
   top: 20;
-  left: 25;
+  /*left: 25;*/
 }
 
 .tilesSection1 p {
@@ -240,12 +242,13 @@ a {
 }
 
 .tilesSection2 {
-  background: url(images/volunteer.jpg) no-repeat;
+  background: url(images/volunt.jpg) no-repeat;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 300px;
-  color: #fff;
+  color: #000;
+  text-align: center;
 }
 
 .tilesSection2 hr {
@@ -253,7 +256,81 @@ a {
   color: #fff;
 }
 
+.tilesSection3 {
+    background: url(images/foster.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 1em;
+    color: #000;
+    text-align: center;
+}
 
+.tilesSection3 h3 {
+  position: relative;;
+  top: 20;
+  /*left: 25;*/
+}
+
+.tilesSection3 p {
+  position: relative;
+  top: 30;
+  left: 25;
+}
+
+.tilesSection3 hr {
+  position: relative;
+  top: 45;
+  left: 25;
+}
+
+.tilesSection4 {
+    background: url(images/fosterdog.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+
+    color: #000;
+    text-align: center;
+}
+
+.tilesSection4 h3 {
+  position: relative;;
+  top: 20;
+  /*left: 25;*/
+}
+
+.tilesSection4 p {
+  position: relative;
+  top: 30;
+  left: 25;
+}
+
+.tilesSection4 hr {
+  position: relative;
+  top: 45;
+  left: 25;
+}
+
+.footerSections {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.footerSections h4 {
+  margin-top: 1em;
+}
+
+.footerIcons {
+  color: #000;
+  font-size: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 40px;
+  text-align: center;
+}
 
 
 
@@ -264,7 +341,7 @@ a {
 
 @media (min-width: 720px){
 
-  .container {
+  .mainContainer {
     width: 100%;
 
   }
@@ -371,14 +448,14 @@ a {
     margin-right: 3em;
   }
 
-  .adoptGeorge button,
+  /*.adoptGeorge button,
   .donate button {
     background: #ADD10E;
     border: 1px solid #666;
     color: #000;
     padding: 1em;
     border-radius: 50%;
-  }
+  }*/
 
   .tiles1,
   .tiles2 {
@@ -389,14 +466,15 @@ a {
   }
 
   .tilesSection1 {
-      background: url(images/helpcat.jpg) no-repeat;
+      background: url(images/helpdog.jpg) no-repeat;
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       height: 400px;
       width: 60%;
       margin-right: 25px;
-      color: #666;
+      color: #000;
+      text-align: center;
   }
 
   .tilesSection1 hr {
@@ -405,12 +483,39 @@ a {
   }
 
   .tilesSection2 {
-    background: url(images/volunteer.jpg) no-repeat;
+    background: url(images/volunt.jpg) no-repeat;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 400px;
     width: 30%;
+  }
+
+  .tilesSection4 {
+      background: url(images/foster.jpg) no-repeat;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      width: 60%;
+
+      color: #000;
+      text-align: center;
+  }
+
+  .tilesSection4 hr {
+    width: 40px;
+    color: #fff;
+  }
+
+  .tilesSection3 {
+    background: url(images/fosterdog.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 30%;
+    margin-right: 25px;
   }
 
   #arrowUp {
@@ -421,13 +526,12 @@ a {
     display: none;
   }
 
+
 }
 
 
-
-
 @media (min-width: 920px){
-  .container {
+  .mainContainer {
     max-width: 1200px;
     margin: 0 auto;
     width: 90%;
